@@ -128,11 +128,11 @@ def getMultiplier(df,ingredientString):
     return multiplier
     
 
-
-ingredients = "1 1/2 cheese fresh orange juice"
-print(mixed_to_float(ingredients))
-
-print(getMultiplier(df, ingredients))
+if __name__ == "__main__":
+        ingredients = "1 1/2 cheese fresh orange juice"
+        print(mixed_to_float(ingredients))
+        print(getMultiplier(df, ingredients))
+        
 
 
 
